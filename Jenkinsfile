@@ -14,19 +14,21 @@ pipeline{
         }
         stage("Run different project tests"){
             parallel(
-                stage("Project1 tests"){
-                    steps{
-                        sh 'dotnet test TestProject1/TestProject1.csproj --no-build --verbosity normal'
-                    }
-                },
-                stage("Project2 tests"){
-                    steps{
-                        sh 'dotnet test TestProject2/TestProject2.csproj --no-build --verbosity normal'
-                    }
-                },
-                stage("Project3 tests"){
-                    steps{
-                        sh 'dotnet test TestProject3/TestProject3.csproj --no-build --verbosity normal'
+                stages{
+                    stage("Project1 tests"){
+                        steps{
+                          sh 'dotnet test TestProject1/TestProject1.csproj --no-build --verbosity normal'
+                        }
+                    },
+                    stage("Project2 tests"){
+                        steps{
+                            sh 'dotnet test TestProject2/TestProject2.csproj --no-build --verbosity normal'
+                        }
+                    },
+                    stage("Project3 tests"){
+                        steps{
+                            sh 'dotnet test TestProject3/TestProject3.csproj --no-build --verbosity normal'
+                        }
                     }
                 }       
             )
