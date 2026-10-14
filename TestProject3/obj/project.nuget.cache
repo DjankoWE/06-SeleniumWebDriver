@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CfnRK5fbvR4=",
+  "dgSpecHash": "xRUFmzNTxuM=",
   "success": true,
-  "projectFilePath": "/Users/djany/Programming/DevOps/08-Exercise-CI-CD-GitHub-Actions-Resources/06-SeleniumWebDriver/TestProject3/TestProject3.csproj",
+  "projectFilePath": "/Users/djany/Programming/DevOps/10-Exercise-CI-CD-Jenkins-Resources/06-SeleniumWebDriver/06-SeleniumWebDriver/TestProject3/TestProject3.csproj",
   "expectedPackageFiles": [
     "/Users/djany/.nuget/packages/coverlet.collector/10.1.0/coverlet.collector.10.1.0.nupkg.sha512",
     "/Users/djany/.nuget/packages/microsoft.applicationinsights/2.23.0/microsoft.applicationinsights.2.23.0.nupkg.sha512",

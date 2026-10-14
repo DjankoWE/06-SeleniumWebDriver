@@ -1917,11 +1917,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/djany/Programming/DevOps/08-Exercise-CI-CD-GitHub-Actions-Resources/06-SeleniumWebDriver/TestProject1/TestProject1.csproj",
+      "projectUniqueName": "/Users/djany/Programming/DevOps/10-Exercise-CI-CD-Jenkins-Resources/06-SeleniumWebDriver/06-SeleniumWebDriver/TestProject1/TestProject1.csproj",
       "projectName": "TestProject1",
-      "projectPath": "/Users/djany/Programming/DevOps/08-Exercise-CI-CD-GitHub-Actions-Resources/06-SeleniumWebDriver/TestProject1/TestProject1.csproj",
+      "projectPath": "/Users/djany/Programming/DevOps/10-Exercise-CI-CD-Jenkins-Resources/06-SeleniumWebDriver/06-SeleniumWebDriver/TestProject1/TestProject1.csproj",
       "packagesPath": "/Users/djany/.nuget/packages/",
-      "outputPath": "/Users/djany/Programming/DevOps/08-Exercise-CI-CD-GitHub-Actions-Resources/06-SeleniumWebDriver/TestProject1/obj/",
+      "outputPath": "/Users/djany/Programming/DevOps/10-Exercise-CI-CD-Jenkins-Resources/06-SeleniumWebDriver/06-SeleniumWebDriver/TestProject1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/djany/.nuget/NuGet/NuGet.Config"
